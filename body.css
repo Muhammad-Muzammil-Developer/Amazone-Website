@@ -1,0 +1,164 @@
+
+/* shope-section */
+.shope-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    /* border: 2px solid black; */
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img-9-p1,
+.img-9-p2,
+.img-9-p3,
+.img-9-p4,
+.img-10-p1,
+.img-10-p2,
+.img-10-p3,
+.img-10-p4,
+.img-11-p1,
+.img-11-p2,
+.img-11-p3,
+.img-11-p4,
+.img-12-p1,
+.img-12-p2,
+.img-12-p3,
+.img-12-p4 {
+    background-size: cover;
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.img-9-content a,
+.img-10-content a,
+.img-11-content a, 
+.img-12-content a {
+    font-size: 0.7rem;
+    margin-left: 15px;
+    color: #222f3d;
+    text-decoration: none;
+}
+
+.img-9-content,
+.img-10-content, 
+.img-11-content, 
+.img-12-content {
+    margin-bottom: 6px;
+    margin-right: 12px;
+}
+.img-9,
+.img-10, 
+.img-11,
+.img-12 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 25px;
+}
+
+.img-9-p1 {
+    background-image: url("img/box-09-p1.jpg");
+}
+.img-9-p2 {
+    background-image: url("img/box-09-p2.jpg");
+}
+.img-9-p3 {
+    background-image: url("img/box-09-p3.jpg");
+}
+.img-9-p4 {
+    background-image: url("img/box-09-p4.jpg");
+}
+
+
+.img-10-p1 {
+    background-image: url("img/box-10-p1.jpg");
+}
+.img-10-p2 {
+    background-image: url("img/box-10-p2.jpg");
+}
+.img-10-p3 {
+    background-image: url("img/box-10-p3.jpg");
+}
+.img-10-p4 {
+    background-image: url("img/box-10-p4.jpg");
+}
+
+.img-11-p1 {
+    background-image: url("img/box-11-p1.jpg");
+}
+.img-11-p2 {
+    background-image: url("img/box-11-p2.jpg");
+}
+.img-11-p3 {
+    background-image: url("img/box-11-p3.jpg");
+}
+.img-11-p4 {
+    background-image: url("img/box-11-p4.jpg");
+}
+
+.img-12-p1 {
+    background-image: url("img/box-12-p1.jpg");
+}
+.img-12-p2 {
+    background-image: url("img/box-12-p2.jpg");
+}
+.img-12-p3 {
+    background-image: url("img/box-12-p3.jpg");
+}
+.img-12-p4 {
+    background-image: url("img/box-12-p4.jpg");
+}
+
+.img-1 {
+    background-image: url("img/box1_image.jpg");
+}
+.img-2 {
+    background-image: url("img/box2_image.jpg");
+}
+.img-3 {
+    background-image: url("img/box3_image.jpg");
+}
+.img-4 {
+    background-image: url("img/box4_image.jpg");
+}
+.img-5 {
+    background-image: url("img/box5_image.jpg");
+}
+.img-6 {
+    background-image: url("img/box6_image.jpg");
+}
+.img-7 {
+    background-image: url("img/box7_image.jpg");
+}
+.img-8 {
+    background-image: url("img/box8_image.jpg");
+}
+
+.box-content p {
+    color: #007185;
+}

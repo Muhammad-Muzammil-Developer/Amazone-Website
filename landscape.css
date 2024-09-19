@@ -1,0 +1,139 @@
+.landscape-img {
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    margin: 20px 23px;
+    padding: 22px;
+}
+
+
+.land-container {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 0.5fr 0.8fr 0.8fr 0.5fr 0.5fr;
+    column-gap: 8px; 
+}
+
+.sec {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.8fr 0.5fr 1.7fr 1fr;
+    column-gap: 8px; 
+}
+
+
+.land-img-p1,
+.land-img-p2,
+.land-img-p3,
+.land-img-p4,
+.land-img-p5,
+.land-img-p6,
+.land-img-p7,
+.land-img-14-p1,
+.land-img-14-p2,
+.land-img-14-p3,
+.land-img-14-p4,
+.land-img-14-p5,
+.land-img-14-p6,
+.land-img-14-p7 {
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.land-img-p1 {
+    background-image: url("img/box-13-p1.jpg");
+}
+.land-img-p2 {
+    background-image: url("img/box-13-p2.jpg");
+}
+.land-img-p3 {
+    background-image: url("img/box-13-p3.jpg");
+}
+.land-img-p4 {
+    background-image: url("img/box-13-p4.jpg");
+}
+.land-img-p5 {
+    background-image: url("img/box-13-p5.jpg");
+}
+.land-img-p6 {
+    background-image: url("img/box-13-p6.jpg");
+}
+.land-img-p7 {
+    background-image: url("imgbox-13-p7.jpg");
+}
+
+
+
+.land-img-14-p1 {
+    background-image: url("img/box-14-p1.jpg");
+}
+
+.land-img-14-p2 {
+    background-image: url("img/box-14-p2.jpg");
+}
+
+.land-img-14-p3 {
+    background-image: url("img/box-14-p3.jpg");
+}
+
+.land-img-14-p4 {
+    background-image: url("img/box-14-p4.jpg");
+}
+
+.land-img-14-p5 {
+    background-image: url("img/box-14-p5.jpg");
+}
+
+.land-img-14-p6 {
+    background-image: url("img/box-14-p6.jpg");
+}
+
+.land-img-14-p7 {
+    background-image: url("img/box-14-p7.jpg");
+}
+
+.img-9-content,
+.img-10-content,
+.img-11-content,
+.img-12-content {
+    position: relative;
+}
+.concasion {
+    position: absolute;
+    left: 8px;
+    top: 20px;
+}
+
+.landscape-img {
+    position: relative;
+}
+
+.next-pic,
+.next-pic-2 {
+    padding: 20px 10px ;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.803);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(118, 118, 118);
+    opacity: 0;
+}
+.next-pic {
+    position: absolute;
+    top: 105px;
+    left: 4px;
+}
+.next-pic-2 {
+    position: absolute;
+    right: 4px;
+    top: 105px;
+}
+
+
+.landscape-img:hover .next-pic {
+    opacity: 1;
+}
+.landscape-img:hover .next-pic-2 {
+    opacity: 1;
+}
+

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panel p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opption {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hover-see-dialogbox {
+    position: relative;
+}
+
+.container-dialogbox {
+    height: 380px;
+    width: 330px;
+    padding: 15px 15px;
+    color: #000;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.782);
+    position: absolute;
+    top: 90px;
+    left: 515px;
+    z-index: 1;
+    display: none ;
+    transition: display 2s;
+}
+.hover-effect:hover .container-dialogbox {
+    display: block;
+    /* transition: display 2s; */
+}
+
+.container-dialogbox a{
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #007185;
+}
+.container-dialogbox a:hover {
+    color: rgb(215, 43, 43);
+}
+.content-dialogbox {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 10px;
+    padding: 5px 4px 8px ;
+}
+
+.dialog-p1,
+.dialog-p2,
+.dialog-p3,
+.dialog-p4 {
+    background-size: cover;
+    height: auto;
+    width: 130px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+
+.dialog-p1 {
+    background-image: url("img/dialogbox-p1.jpg");
+}
+.dialog-p2 {
+    background-image: url("img/dialogbox-p2.jpg");
+}
+.dialog-p3 {
+    background-image: url("img/dialogbox-p3.jpg");
+}
+.dialog-p4 {
+    background-image: url("img/dialogbox-p4.jpg");
+}
+
+/* Hero-sction */
+
+.hero-section {
+    background-image: url("img/hero-2.jpg");
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    animation: hero-change 12s ease-in-out 5s infinite;
+}
+
+@keyframes hero-change{
+    40%{
+        background-image: url('img/hero_image.jpg');
+    }
+    70%{
+        background-image: url('img/hero-3.jpg');
+    }
+    100%{
+        background-image: url('img/hero-4.jpg');
+    }
+}
+.hero-msg {
+    background-color: white;
+    color: #000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+    width: 80%;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+.see-more-link {
+    text-decoration: none;
+}
+.see-more-link:hover {
+ color: rgb(218, 26, 26);
+}
